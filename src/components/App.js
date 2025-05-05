@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
-import UsersPage from './components/UsersPage';
-import NotificationsPage from './components/NotificationsPage';
-import CreatePost from './components/CreatePost';
-import EditPost from './components/EditPost';
+import LandingPage from './LandingPage.js';
+import UsersPage from './UsersPage.js';
+import NotificationsPage from './NotificationsPage.js';
+import CreatePost from './CreatePost.js';
+import EditPost from './EditPost.js';
 
 const App = () => {
   return (
