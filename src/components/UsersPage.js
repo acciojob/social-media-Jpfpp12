@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const UsersPage = () => {
-  const [posts, setPosts] = useState([
+  const [posts] = useState([
     { id: 1, title: 'Post 1', content: 'Content for post 1', author: 'John' },
     { id: 2, title: 'Post 2', content: 'Content for post 2', author: 'Jane' },
   ]);
@@ -10,12 +10,8 @@ const UsersPage = () => {
     <div className="users-page">
       <h2>Users</h2>
       <div className="users-list">
-        <div className="user" onClick={() => alert('Show posts for user')}>
-          John
-        </div>
-        <div className="user" onClick={() => alert('Show posts for user')}>
-          Jane
-        </div>
+        <div className="user" onClick={() => alert('Show posts for user')}>John</div>
+        <div className="user" onClick={() => alert('Show posts for user')}>Jane</div>
       </div>
       <div className="user-posts">
         {posts.map(post => (

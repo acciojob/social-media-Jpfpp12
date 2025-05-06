@@ -11,6 +11,7 @@ const CreatePost = () => {
   return (
     <div className="create-post">
       <select id="postAuthor" value={author} onChange={(e) => setAuthor(e.target.value)}>
+        <option value="">Select Author</option>
         <option value="John">John</option>
         <option value="Jane">Jane</option>
       </select>

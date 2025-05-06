@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const EditPost = ({ post, onSave }) => {
   const [title, setTitle] = useState(post.title);
   const [content, setContent] = useState(post.content);
