@@ -9,10 +9,10 @@ const UsersPage = () => {
   return (
     <div className="users-page">
       <h2>Users</h2>
-      <div className="users-list">
-        <div className="user" onClick={() => alert('Show posts for user')}>John</div>
-        <div className="user" onClick={() => alert('Show posts for user')}>Jane</div>
-      </div>
+      <ul className="users-list">
+        <li className="user">John</li>
+        <li className="user">Jane</li>
+      </ul>
       <div className="user-posts">
         {posts.map(post => (
           <div key={post.id} className="post">

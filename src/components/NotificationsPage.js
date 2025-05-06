@@ -16,11 +16,11 @@ const NotificationsPage = () => {
       <button onClick={refreshNotifications} className="button">
         Refresh Notifications
       </button>
-      <div className="notifications-list">
+      <section className="notificationsList">
         {notifications.map((notification, index) => (
           <div key={index} className="notification">{notification}</div>
         ))}
-      </div>
+      </section>
     </div>
   );
 };
