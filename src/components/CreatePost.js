@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './CreatePost.css';
 
 const CreatePost = () => {
   const [author, setAuthor] = useState('');

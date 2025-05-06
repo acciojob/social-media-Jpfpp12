@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './EditPost.css';
+
 
 const EditPost = ({ post, onSave }) => {
   const [title, setTitle] = useState(post.title);
